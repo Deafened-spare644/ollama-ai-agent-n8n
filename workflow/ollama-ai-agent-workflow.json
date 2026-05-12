@@ -1,0 +1,89 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        0
+      ],
+      "id": "ae84dc18-81f1-4ddb-9eac-de701bf602a8",
+      "name": "When chat message received",
+      "webhookId": "37dab30d-35e4-4a6d-9294-cb71fdd893a6"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "58f0fdf9-cf2c-417f-bde2-2a744459b811",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": "llama3.2:latest",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        48,
+        224
+      ],
+      "id": "35a455da-77c3-4ce0-a05a-ae9c128e9a45",
+      "name": "Ollama Chat Model",
+      "credentials": {
+        "ollamaApi": {
+          "id": "EeBAuMNn1VryRHRz",
+          "name": "Ollama account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "c2f60d30-3ac6-4c62-af77-7d692203f98f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b86f06082f0ee66852be62221584f6d36dd9b0b82dcf62bf7aafceddc9610fad"
+  },
+  "id": "cD6F2HLxzwf5lvvH",
+  "tags": []
+}
