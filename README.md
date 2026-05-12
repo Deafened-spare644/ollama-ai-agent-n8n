@@ -27,27 +27,28 @@ This project demonstrates:
 
 # Workflow Architecture
 
-![Workflow](./screenshots/workflow-architecture.png)
+![Workflow](./screenshots/workflow-architecture.jpeg)
 
 ---
 
 # AI Chat Interface
 
-![Chat](./screenshots/ai-chat-interface.png)
+![Chat](./screenshots/ai-chat-interface.jpeg)
 
 ---
 
 # Execution Logs
 
-![Logs](./screenshots/execution-logs.png)
+![Logs](./screenshots/execution-logs.jpeg)
 
 ---
 
 # Ollama Response Output
 
-![Output](./screenshots/ollama-response-output.png)
+![Output](./screenshots/ollama-response-output.jpeg)
 
 ---
+
 
 # Technologies Used
 
